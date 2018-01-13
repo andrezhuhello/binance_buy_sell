@@ -5,8 +5,8 @@ import time
 
 #settings
 BTC_amount = 0.05
-api_key='EErTfnECX3jwGI6lcNHWs2AWmib4WbA46Xtlndv4S1jwVOP9KzQSEYFAYKXpfvXf'
-api_secret='tRF1rWDnDtD8vnrRqFZVkQM9Uu4D2hLWVc8PgORcG7kfzHOawtg52LBMYvXI3x6i'
+api_key='xxx'
+api_secret='xxx'
 
 client = Client(api_key,api_secret)
 
