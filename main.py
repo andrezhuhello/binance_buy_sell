@@ -19,7 +19,6 @@ def buy_all(currency):
     buy_price=float(client.get_orderbook_ticker(symbol=symbol)['askPrice'])
     if minimum<1 : quantity = Decimal(BTC_amount/buy_price).quantize(Decimal(str(minimum)), rounding=ROUND_DOWN)
     else :         quantity = Decimal(BTC_amount/buy_price).quantize(Decimal('1.'), rounding=ROUND_DOWN)
-    print(quantity)
     order = client.create_test_order(
         symbol=symbol,
         side=SIDE_BUY,
