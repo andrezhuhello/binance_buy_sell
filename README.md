@@ -28,8 +28,8 @@ and input the name of crypt you want to buy/sell
 after it's finished you should get :
 
 ```
-BUY order of 7002 TRXBTC set @ 7.14e-06 BTC 
-SELL order of 7002 TRXBTC set @ 0.00000856 BTC 
+BUY order of 6993 TRXBTC set @ 7.15e-06 BTC  totalling 0.04999995 BTC 
+SELL order of 6993 TRXBTC set @ 0.00000857 BTC  totalling 0.05993001 BTC 
 ```
 
 
